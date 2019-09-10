@@ -26,7 +26,7 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 .wrapper {
   border-radius: 6px;
   height: 20px;
