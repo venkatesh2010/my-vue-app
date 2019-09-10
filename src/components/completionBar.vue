@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h4>completion Bar</h4>
     <div class="wrapper">
       <div :style="{width:p+'%'}" class="completion-block"></div>
     </div>
