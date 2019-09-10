@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <CompletionBar/>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import CompletionBar from "./components/completionBar";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    CompletionBar
   }
 };
 </script>
