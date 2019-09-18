@@ -34,11 +34,12 @@ export default Vue.extend({
   width: 80vw;
   display: flex;
   justify-content: flex-start;
-  background-color: brown;
+  background-color: #eee;
   overflow: hidden;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .completion-block {
-  background-color: aqua;
+  background-color: blue;
   transition: width 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 </style>

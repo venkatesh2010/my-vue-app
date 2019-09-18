@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <AboutMe></AboutMe>
     <CompletionBar/>
   </div>
 </template>
@@ -8,12 +8,14 @@
 <script>
 import HelloWorld from "./components/HelloWorld";
 import CompletionBar from "./components/completionBar";
+import AboutMe from "./components/AboutMe";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    CompletionBar
+    CompletionBar,
+    AboutMe
   }
 };
 </script>
